@@ -1,0 +1,1451 @@
+
+[FV.FV_ee4e5898_3914_4259_9d6e_dc7bd79403cf]
+BlockSize          = 0x10000
+FvAlignment        = 16
+ERASE_POLARITY     = 1
+MEMORY_MAPPED      = TRUE
+STICKY_WRITE       = TRUE
+LOCK_CAP           = TRUE
+LOCK_STATUS        = TRUE
+WRITE_DISABLED_CAP = TRUE
+WRITE_ENABLED_CAP  = TRUE
+WRITE_STATUS       = TRUE
+WRITE_LOCK_CAP     = TRUE
+WRITE_LOCK_STATUS  = TRUE
+READ_DISABLED_CAP  = TRUE
+READ_ENABLED_CAP   = TRUE
+READ_STATUS        = TRUE
+READ_LOCK_CAP      = TRUE
+READ_LOCK_STATUS   = TRUE
+
+
+FILE FREEFORM = fc510ee7-ffdc-11d4-bd41-0080c73c8881  {
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-fc510ee7-ffdc-11d4-bd41-0080c73c8881/section0.raw
+
+}
+
+FILE DXE_CORE = d6a2cb7f-6a18-4e2f-b43b-9920a733700a  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-d6a2cb7f-6a18-4e2f-b43b-9920a733700a/section0.pe
+  SECTION UI = "DxeCore"
+
+}
+
+FILE DRIVER = 80cf7257-87ab-47f9-a3fe-d50b76d89541  {
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-80cf7257-87ab-47f9-a3fe-d50b76d89541/section0.raw
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-80cf7257-87ab-47f9-a3fe-d50b76d89541/section1.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-80cf7257-87ab-47f9-a3fe-d50b76d89541/section2.pe
+  SECTION UI = "PcdDxe"
+
+}
+
+FILE DRIVER = 90a49afd-422f-08ae-9611-e788d3804845  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-90a49afd-422f-08ae-9611-e788d3804845/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-90a49afd-422f-08ae-9611-e788d3804845/section1.pe
+  SECTION UI = "EnvDxe"
+
+}
+
+FILE DRIVER = d93ce3d8-a7eb-4730-8c8e-cc466a9ecc3c  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-d93ce3d8-a7eb-4730-8c8e-cc466a9ecc3c/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-d93ce3d8-a7eb-4730-8c8e-cc466a9ecc3c/section1.pe
+  SECTION UI = "ReportStatusCodeRouterRuntimeDxe"
+
+}
+
+FILE DRIVER = 6c2004ef-4e0e-4be4-b14c-340eb4aa5891  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-6c2004ef-4e0e-4be4-b14c-340eb4aa5891/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-6c2004ef-4e0e-4be4-b14c-340eb4aa5891/section1.pe
+  SECTION UI = "StatusCodeHandlerRuntimeDxe"
+
+}
+
+FILE DRIVER = 995f045b-0265-46a4-8d21-001211a24a4f  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-995f045b-0265-46a4-8d21-001211a24a4f/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-995f045b-0265-46a4-8d21-001211a24a4f/section1.pe
+  SECTION UI = "MsWheaReportDxe"
+
+}
+
+FILE DRIVER = b601f8c4-43b7-4784-95b1-f4226cb40cee  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b601f8c4-43b7-4784-95b1-f4226cb40cee/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b601f8c4-43b7-4784-95b1-f4226cb40cee/section1.pe
+  SECTION UI = "RuntimeDxe"
+
+}
+
+FILE DRIVER = b8d9777e-d72a-451f-9bdb-bafb52a68415  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b8d9777e-d72a-451f-9bdb-bafb52a68415/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b8d9777e-d72a-451f-9bdb-bafb52a68415/section1.pe
+  SECTION UI = "ArmCpuDxe"
+
+}
+
+FILE DRIVER = de371f7c-dec4-4d21-adf1-593abcc15882  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-de371f7c-dec4-4d21-adf1-593abcc15882/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-de371f7c-dec4-4d21-adf1-593abcc15882/section1.pe
+  SECTION UI = "ArmGicDxe"
+
+}
+
+FILE DRIVER = 49ea041e-6752-42ca-b0b1-7344fe2546b7  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-49ea041e-6752-42ca-b0b1-7344fe2546b7/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-49ea041e-6752-42ca-b0b1-7344fe2546b7/section1.pe
+  SECTION UI = "ArmTimerDxe"
+
+}
+
+FILE DRIVER = f541d663-4a48-40aa-aabf-ff158ccae34c  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f541d663-4a48-40aa-aabf-ff158ccae34c/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f541d663-4a48-40aa-aabf-ff158ccae34c/section1.pe
+  SECTION UI = "SmemDxe"
+
+}
+
+FILE DRIVER = 8e9bd160-b184-11df-94e2-0800200c9a66  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-8e9bd160-b184-11df-94e2-0800200c9a66/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-8e9bd160-b184-11df-94e2-0800200c9a66/section1.pe
+  SECTION UI = "DALSys"
+
+}
+
+FILE DRIVER = af9763a2-033b-4109-8e17-56a98d380c92  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-af9763a2-033b-4109-8e17-56a98d380c92/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-af9763a2-033b-4109-8e17-56a98d380c92/section1.pe
+  SECTION UI = "HWIODxeDriver"
+
+}
+
+FILE DRIVER = 10e193df-9966-44e7-b17c-59dd831e20fc  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-10e193df-9966-44e7-b17c-59dd831e20fc/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-10e193df-9966-44e7-b17c-59dd831e20fc/section1.pe
+  SECTION UI = "ChipInfo"
+
+}
+
+FILE DRIVER = b105211b-bbbd-4add-a3b0-d1cf4a52154c  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b105211b-bbbd-4add-a3b0-d1cf4a52154c/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b105211b-bbbd-4add-a3b0-d1cf4a52154c/section1.pe
+  SECTION UI = "PlatformInfoDxeDriver"
+
+}
+
+FILE DRIVER = 9a00771f-36d4-4dd5-8916-c48ed9b16b86  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-9a00771f-36d4-4dd5-8916-c48ed9b16b86/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-9a00771f-36d4-4dd5-8916-c48ed9b16b86/section1.pe
+  SECTION UI = "HALIOMMU"
+
+}
+
+FILE DRIVER = 4c6e0267-c77d-410d-8100-1495911a989d  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4c6e0267-c77d-410d-8100-1495911a989d/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4c6e0267-c77d-410d-8100-1495911a989d/section1.pe
+  SECTION UI = "MetronomeDxe"
+
+}
+
+FILE DRIVER = 9c1eb71f-dd6c-4ed5-9f6a-5cc0ca789f16  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-9c1eb71f-dd6c-4ed5-9f6a-5cc0ca789f16/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-9c1eb71f-dd6c-4ed5-9f6a-5cc0ca789f16/section1.pe
+  SECTION UI = "ShmBridgeDxe"
+
+}
+
+FILE DRIVER = 2d7a83e3-e343-4ffb-9109-631f2ee11694  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-2d7a83e3-e343-4ffb-9109-631f2ee11694/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-2d7a83e3-e343-4ffb-9109-631f2ee11694/section1.pe
+  SECTION UI = "ScmDxe"
+
+}
+
+FILE DRIVER = 7942a7eb-b7d5-4e2e-b908-831e4de55b58  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7942a7eb-b7d5-4e2e-b908-831e4de55b58/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7942a7eb-b7d5-4e2e-b908-831e4de55b58/section1.pe
+  SECTION UI = "GlinkDxe"
+
+}
+
+FILE DRIVER = e43128a8-8692-42b6-8afa-676158578d18  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-e43128a8-8692-42b6-8afa-676158578d18/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-e43128a8-8692-42b6-8afa-676158578d18/section1.pe
+  SECTION UI = "ULogDxe"
+
+}
+
+FILE DRIVER = aba01ff8-2ccb-4e12-8b2e-cd3f4a742993  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-aba01ff8-2ccb-4e12-8b2e-cd3f4a742993/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-aba01ff8-2ccb-4e12-8b2e-cd3f4a742993/section1.pe
+  SECTION UI = "CmdDbDxe"
+
+}
+
+FILE DRIVER = cb29f4d1-7f37-4692-a416-93e82e219711  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-cb29f4d1-7f37-4692-a416-93e82e219711/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-cb29f4d1-7f37-4692-a416-93e82e219711/section1.pe
+  SECTION UI = "NpaDxe"
+
+}
+
+FILE DRIVER = cb29f4d1-7f37-4692-a416-93e82e219766  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-cb29f4d1-7f37-4692-a416-93e82e219766/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-cb29f4d1-7f37-4692-a416-93e82e219766/section1.pe
+  SECTION UI = "RpmhDxe"
+
+}
+
+FILE DRIVER = b43c22db-6333-490c-872d-0a73439059fd  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b43c22db-6333-490c-872d-0a73439059fd/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b43c22db-6333-490c-872d-0a73439059fd/section1.pe
+  SECTION UI = "PdcDxe"
+
+}
+
+FILE DRIVER = 4db5dea6-5302-4d1a-8a82-677a683b0d29  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4db5dea6-5302-4d1a-8a82-677a683b0d29/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4db5dea6-5302-4d1a-8a82-677a683b0d29/section1.pe
+  SECTION UI = "ClockDxe"
+
+}
+
+FILE DRIVER = 8681cc5a-0df6-441e-b4b8-e915c538f067  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-8681cc5a-0df6-441e-b4b8-e915c538f067/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-8681cc5a-0df6-441e-b4b8-e915c538f067/section1.pe
+  SECTION UI = "DALTLMM"
+
+}
+
+FILE DRIVER = 2a7b4bef-80cd-49e1-b473-374ba4d673fc  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-2a7b4bef-80cd-49e1-b473-374ba4d673fc/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-2a7b4bef-80cd-49e1-b473-374ba4d673fc/section1.pe
+  SECTION UI = "SPMI"
+
+}
+
+FILE DRIVER = 04de8591-d2b3-4077-bbbe-b12070094eb6  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-04de8591-d2b3-4077-bbbe-b12070094eb6/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-04de8591-d2b3-4077-bbbe-b12070094eb6/section1.pe
+  SECTION UI = "I2C"
+
+}
+
+FILE DRIVER = 7db0793a-4402-4be1-906e-d0fabad2707e  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7db0793a-4402-4be1-906e-d0fabad2707e/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7db0793a-4402-4be1-906e-d0fabad2707e/section1.pe
+  SECTION UI = "DDRInfoDxe"
+
+}
+
+FILE DRIVER = 4b28e4c7-ff36-4e10-93cf-a82159e777c5  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4b28e4c7-ff36-4e10-93cf-a82159e777c5/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4b28e4c7-ff36-4e10-93cf-a82159e777c5/section1.pe
+  SECTION UI = "ResetSystemRuntimeDxe"
+
+}
+
+FILE DRIVER = c44697d5-b4aa-4030-9749-29860844183d  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-c44697d5-b4aa-4030-9749-29860844183d/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-c44697d5-b4aa-4030-9749-29860844183d/section1.pe
+  SECTION UI = "PmicDxe"
+
+}
+
+FILE DRIVER = 1bfbafda-52eb-4550-b952-d663e0aa97a2  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-1bfbafda-52eb-4550-b952-d663e0aa97a2/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-1bfbafda-52eb-4550-b952-d663e0aa97a2/section1.pe
+  SECTION UI = "TouchControllerInitDxe"
+
+}
+
+FILE DRIVER = 6b38f7b4-ad98-40e9-9093-aca2b5a253c4  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-6b38f7b4-ad98-40e9-9093-aca2b5a253c4/section0.pe
+  SECTION UI = "DiskIoDxe"
+
+}
+
+FILE DRIVER = 1fa1f39e-feff-4aae-bd7b-38a070a3b609  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-1fa1f39e-feff-4aae-bd7b-38a070a3b609/section0.pe
+  SECTION UI = "PartitionDxe"
+
+}
+
+FILE DRIVER = cd3bafb6-50fb-4fe8-8e4e-ab74d2c1a600  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-cd3bafb6-50fb-4fe8-8e4e-ab74d2c1a600/section0.pe
+  SECTION UI = "EnglishDxe"
+
+}
+
+FILE DRIVER = 907125c0-a5f1-11e3-a3fe-a3198b49350c  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-907125c0-a5f1-11e3-a3fe-a3198b49350c/section0.pe
+  SECTION UI = "FvSimpleFileSystem"
+
+}
+
+FILE DRIVER = f10f76db-42c1-533f-34a8-69be24653110  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f10f76db-42c1-533f-34a8-69be24653110/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f10f76db-42c1-533f-34a8-69be24653110/section1.pe
+  SECTION UI = "SdccDxe"
+
+}
+
+FILE DRIVER = 1d317734-4083-47c6-83ea-e3a42f2a6bff  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-1d317734-4083-47c6-83ea-e3a42f2a6bff/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-1d317734-4083-47c6-83ea-e3a42f2a6bff/section1.pe
+  SECTION UI = "PILDxe"
+
+}
+
+FILE DRIVER = 1b52138d-3fa3-4e50-b958-20887353f809  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-1b52138d-3fa3-4e50-b958-20887353f809/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-1b52138d-3fa3-4e50-b958-20887353f809/section1.pe
+  SECTION UI = "CPRDxe"
+
+}
+
+FILE DRIVER = f099d67f-71ae-4c36-b2a3-dceb0eb2b7d8  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f099d67f-71ae-4c36-b2a3-dceb0eb2b7d8/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f099d67f-71ae-4c36-b2a3-dceb0eb2b7d8/section1.pe
+  SECTION UI = "WatchdogTimer"
+
+}
+
+FILE DRIVER = 5e0eae60-eaed-4d75-b8bf-edbbaabc3f09  {
+  SECTION UI = "SecurityDxe"
+  SECTION VERSION = "None"
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-5e0eae60-eaed-4d75-b8bf-edbbaabc3f09/section2.pe
+
+}
+
+FILE DRIVER = bdee011f-87f2-4a7f-bc5e-44b6b61f4e20  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-bdee011f-87f2-4a7f-bc5e-44b6b61f4e20/section0.dxe.depex
+  SECTION UI = "BaseCryptoDriverDxeAARCH64"
+  SECTION VERSION = "None"
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-bdee011f-87f2-4a7f-bc5e-44b6b61f4e20/section3.pe
+
+}
+
+FILE DRIVER = f80697e9-7fd6-4665-8646-88e33ef71dfc  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f80697e9-7fd6-4665-8646-88e33ef71dfc/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f80697e9-7fd6-4665-8646-88e33ef71dfc/section1.pe
+  SECTION UI = "SecurityStubDxe"
+
+}
+
+FILE DRIVER = da89caae-edcb-4512-97a6-18f55a6cb2dc  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-da89caae-edcb-4512-97a6-18f55a6cb2dc/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-da89caae-edcb-4512-97a6-18f55a6cb2dc/section1.pe
+  SECTION UI = "SpiNorDxe"
+
+}
+
+FILE DRIVER = 5be3bdf4-53cf-46a3-a6a9-73c34a6e5ee3  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-5be3bdf4-53cf-46a3-a6a9-73c34a6e5ee3/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-5be3bdf4-53cf-46a3-a6a9-73c34a6e5ee3/section1.pe
+  SECTION UI = "NvmExpressDxe"
+
+}
+
+FILE DRIVER = 93b80004-9fb3-11d4-9a3a-0090273fc14d  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-93b80004-9fb3-11d4-9a3a-0090273fc14d/section0.pe
+  SECTION UI = "PciBusDxe"
+
+}
+
+FILE DRIVER = 961578fe-b6b7-44c3-af35-6bc705cd2b1f  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-961578fe-b6b7-44c3-af35-6bc705cd2b1f/section0.pe
+  SECTION UI = "Fat"
+
+}
+
+FILE DRIVER = 569ea0de-b557-4043-84cf-01103fe516e5  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-569ea0de-b557-4043-84cf-01103fe516e5/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-569ea0de-b557-4043-84cf-01103fe516e5/section1.pe
+  SECTION UI = "GpiDxe"
+
+}
+
+FILE DRIVER = 6925fad3-e243-4b69-ad61-3f978c8abc60  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-6925fad3-e243-4b69-ad61-3f978c8abc60/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-6925fad3-e243-4b69-ad61-3f978c8abc60/section1.pe
+  SECTION UI = "TzDxe"
+
+}
+
+FILE DRIVER = 2b0ecdce-01ae-446e-9ffd-c4217de0340f  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-2b0ecdce-01ae-446e-9ffd-c4217de0340f/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-2b0ecdce-01ae-446e-9ffd-c4217de0340f/section1.pe
+  SECTION UI = "VariableDxe"
+
+}
+
+FILE DRIVER = 615676d8-f930-40dd-aff2-f1fae384337f  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-615676d8-f930-40dd-aff2-f1fae384337f/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-615676d8-f930-40dd-aff2-f1fae384337f/section1.pe
+  SECTION UI = "MsEnvDxe"
+
+}
+
+FILE DRIVER = 4138022f-06c7-4f79-9c94-7e33b511a4e7  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4138022f-06c7-4f79-9c94-7e33b511a4e7/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4138022f-06c7-4f79-9c94-7e33b511a4e7/section1.pe
+  SECTION UI = "DisplayDxe"
+
+}
+
+FILE DRIVER = da776596-74d5-4fc5-a151-407697d3bd16  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-da776596-74d5-4fc5-a151-407697d3bd16/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-da776596-74d5-4fc5-a151-407697d3bd16/section1.pe
+  SECTION UI = "MuBuiltInVarPolicyInstallerDxe"
+
+}
+
+FILE DRIVER = 8c7db881-da76-4486-8654-8152ee3470a3  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-8c7db881-da76-4486-8654-8152ee3470a3/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-8c7db881-da76-4486-8654-8152ee3470a3/section1.pe
+  SECTION UI = "MuVarPolicyFoundationDxe"
+
+}
+
+FILE DRIVER = 27d4595d-d3aa-4008-9b02-881b0ac25f09  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-27d4595d-d3aa-4008-9b02-881b0ac25f09/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-27d4595d-d3aa-4008-9b02-881b0ac25f09/section1.pe
+  SECTION UI = "GopOverrideDxe"
+
+}
+
+FILE DRIVER = 040e1e61-0afb-411b-9ec9-00f3fc59cc13  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-040e1e61-0afb-411b-9ec9-00f3fc59cc13/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-040e1e61-0afb-411b-9ec9-00f3fc59cc13/section1.pe
+  SECTION UI = "QcomWDogDxe"
+
+}
+
+FILE DRIVER = f9c6016c-442d-1afa-cef4-62b63caac906  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f9c6016c-442d-1afa-cef4-62b63caac906/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f9c6016c-442d-1afa-cef4-62b63caac906/section1.pe
+  SECTION UI = "CrashDumpDxe"
+
+}
+
+FILE DRIVER = 5ae6dddf-efe5-4a9b-80ef-acb5b5dc00c1  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-5ae6dddf-efe5-4a9b-80ef-acb5b5dc00c1/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-5ae6dddf-efe5-4a9b-80ef-acb5b5dc00c1/section1.pe
+  SECTION UI = "RawFileSystem"
+
+}
+
+FILE DRIVER = 65b852df-355e-4946-9808-cc7edb9beaa6  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-65b852df-355e-4946-9808-cc7edb9beaa6/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-65b852df-355e-4946-9808-cc7edb9beaa6/section1.pe
+  SECTION UI = "DppDxe"
+
+}
+
+FILE DRIVER = 37795ba0-e1cf-4ed5-bd8b-16df6bcb1e1a  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-37795ba0-e1cf-4ed5-bd8b-16df6bcb1e1a/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-37795ba0-e1cf-4ed5-bd8b-16df6bcb1e1a/section1.pe
+  SECTION UI = "EmbeddedMonotonicCounter"
+
+}
+
+FILE DRIVER = b336f62d-4135-4a55-ae4e-4971bbf0885d  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b336f62d-4135-4a55-ae4e-4971bbf0885d/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b336f62d-4135-4a55-ae4e-4971bbf0885d/section1.pe
+  SECTION UI = "RealTimeClock"
+
+}
+
+FILE DRIVER = 79e4a61c-ed73-4312-94fe-e3e7563362a9  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-79e4a61c-ed73-4312-94fe-e3e7563362a9/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-79e4a61c-ed73-4312-94fe-e3e7563362a9/section1.pe
+  SECTION UI = "PrintDxe"
+
+}
+
+FILE DRIVER = 9b680fce-ad6b-4f3a-b60b-f59899003443  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-9b680fce-ad6b-4f3a-b60b-f59899003443/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-9b680fce-ad6b-4f3a-b60b-f59899003443/section1.pe
+  SECTION UI = "DevicePathDxe"
+
+}
+
+FILE DRIVER = 348c4d62-bfbd-4882-9ece-c80bb1c4783b  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-348c4d62-bfbd-4882-9ece-c80bb1c4783b/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-348c4d62-bfbd-4882-9ece-c80bb1c4783b/section1.pe
+  SECTION UI = "HiiDatabase"
+
+}
+
+FILE DRIVER = 6d33944a-ec75-4855-a54d-809c75241f6c  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-6d33944a-ec75-4855-a54d-809c75241f6c/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-6d33944a-ec75-4855-a54d-809c75241f6c/section1.pe
+  SECTION UI = "BdsDxe"
+
+}
+
+FILE DRIVER = 7a32bd23-f735-4f57-aa1a-447d2fe3be0d  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7a32bd23-f735-4f57-aa1a-447d2fe3be0d/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7a32bd23-f735-4f57-aa1a-447d2fe3be0d/section1.pe
+  SECTION UI = "SPI"
+
+}
+
+FILE DRIVER = e6239a25-45ee-d1a7-5eaa-e69e2560e6e2  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-e6239a25-45ee-d1a7-5eaa-e69e2560e6e2/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-e6239a25-45ee-d1a7-5eaa-e69e2560e6e2/section1.pe
+  SECTION UI = "SerialDxe"
+
+}
+
+FILE DRIVER = f09ad92e-485c-9cdb-3e05-3385c38f94cc  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f09ad92e-485c-9cdb-3e05-3385c38f94cc/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f09ad92e-485c-9cdb-3e05-3385c38f94cc/section1.pe
+  SECTION UI = "TsensDxe"
+
+}
+
+FILE DRIVER = 5a5cb8ca-9382-4e0c-b383-77fb517cd9eb  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-5a5cb8ca-9382-4e0c-b383-77fb517cd9eb/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-5a5cb8ca-9382-4e0c-b383-77fb517cd9eb/section1.pe
+  SECTION UI = "AdcDxe"
+
+}
+
+FILE DRIVER = 6d4a9cf7-cc0c-42b0-aa89-f6a6a8d99273  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-6d4a9cf7-cc0c-42b0-aa89-f6a6a8d99273/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-6d4a9cf7-cc0c-42b0-aa89-f6a6a8d99273/section1.pe
+  SECTION UI = "PmicGlinkDxe"
+
+}
+
+FILE DRIVER = 11faed4c-b21f-4d88-8e48-c4c28a1e50df  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-11faed4c-b21f-4d88-8e48-c4c28a1e50df/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-11faed4c-b21f-4d88-8e48-c4c28a1e50df/section1.pe
+  SECTION UI = "UsbPwrCtrlDxe"
+
+}
+
+FILE DRIVER = 2e3042f3-2bb9-463f-8866-56d75b7c4ab0  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-2e3042f3-2bb9-463f-8866-56d75b7c4ab0/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-2e3042f3-2bb9-463f-8866-56d75b7c4ab0/section1.pe
+  SECTION UI = "ChargerExDxe"
+
+}
+
+FILE DRIVER = 7861c9d1-43b6-410c-b8a7-c129a9346d9d  {
+  SECTION UI = "TpmDxe"
+  SECTION VERSION = "None"
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7861c9d1-43b6-410c-b8a7-c129a9346d9d/section2.pe
+
+}
+
+FILE DRIVER = f09ad92e-4e91-490f-ab99-e69939b840b2  {
+  SECTION UI = "LimitsDxe"
+  SECTION VERSION = "None"
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f09ad92e-4e91-490f-ab99-e69939b840b2/section2.pe
+
+}
+
+FILE DRIVER = 94f8a6a7-dc34-4101-88c1-99179cceae83  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-94f8a6a7-dc34-4101-88c1-99179cceae83/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-94f8a6a7-dc34-4101-88c1-99179cceae83/section1.pe
+  SECTION UI = "UsbfnDwc3Dxe"
+
+}
+
+FILE DRIVER = beb12bee-f6e1-11e1-9fb8-6c626de4aeb1  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-beb12bee-f6e1-11e1-9fb8-6c626de4aeb1/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-beb12bee-f6e1-11e1-9fb8-6c626de4aeb1/section1.pe
+  SECTION UI = "XhciPciEmulation"
+
+}
+
+FILE DRIVER = b7f50e91-a759-412c-ade4-dcd03e7f7c28  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b7f50e91-a759-412c-ade4-dcd03e7f7c28/section0.pe
+  SECTION UI = "XhciDxe"
+
+}
+
+FILE DRIVER = 240612b7-a063-11d4-9a3a-0090273fc14d  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-240612b7-a063-11d4-9a3a-0090273fc14d/section0.pe
+  SECTION UI = "UsbBusDxe"
+
+}
+
+FILE DRIVER = 2d2e62cf-9ecf-43b7-8219-94e7fc713dfe  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-2d2e62cf-9ecf-43b7-8219-94e7fc713dfe/section0.pe
+  SECTION UI = "UsbKbDxe"
+
+}
+
+FILE DRIVER = 9fb4b4a7-42c0-4bcd-8540-9bcc6711f83e  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-9fb4b4a7-42c0-4bcd-8540-9bcc6711f83e/section0.pe
+  SECTION UI = "UsbMassStorageDxe"
+
+}
+
+FILE DRIVER = cd823a4d-7dec-4531-ae5d-4134fa4127b8  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-cd823a4d-7dec-4531-ae5d-4134fa4127b8/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-cd823a4d-7dec-4531-ae5d-4134fa4127b8/section1.pe
+  SECTION UI = "UsbConfigDxe"
+
+}
+
+FILE DRIVER = 0a134f0e-075e-40b3-9c63-3b3906804663  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-0a134f0e-075e-40b3-9c63-3b3906804663/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-0a134f0e-075e-40b3-9c63-3b3906804663/section1.pe
+  SECTION UI = "UsbInitDxe"
+
+}
+
+FILE DRIVER = 3299a266-15f0-4346-8318-716336736d3e  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-3299a266-15f0-4346-8318-716336736d3e/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-3299a266-15f0-4346-8318-716336736d3e/section1.pe
+  SECTION UI = "UsbDeviceDxe"
+
+}
+
+FILE DRIVER = 51d4273a-c3fb-48fd-b5b7-97ce091a58a6  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-51d4273a-c3fb-48fd-b5b7-97ce091a58a6/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-51d4273a-c3fb-48fd-b5b7-97ce091a58a6/section1.pe
+  SECTION UI = "UsbfnChgDxe"
+
+}
+
+FILE DRIVER = f8622d80-f271-4505-9487-8d25bbafd7d8  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f8622d80-f271-4505-9487-8d25bbafd7d8/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f8622d80-f271-4505-9487-8d25bbafd7d8/section1.pe
+  SECTION UI = "SmbiosDxe"
+
+}
+
+FILE DRIVER = 9622e42c-8e38-4a08-9e8f-54f784652f6b  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-9622e42c-8e38-4a08-9e8f-54f784652f6b/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-9622e42c-8e38-4a08-9e8f-54f784652f6b/section1.pe
+  SECTION UI = "AcpiTableDxe"
+
+}
+
+FILE DRIVER = 7e374e25-8e01-4fee-87f2-390c23c606cd  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7e374e25-8e01-4fee-87f2-390c23c606cd/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7e374e25-8e01-4fee-87f2-390c23c606cd/section1.pe
+  SECTION UI = "AcpiPlatform"
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7e374e25-8e01-4fee-87f2-390c23c606cd/section3.raw
+
+}
+
+FILE DRIVER = c62f4b20-681e-11df-8f0d-0002a5d5c51b  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-c62f4b20-681e-11df-8f0d-0002a5d5c51b/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-c62f4b20-681e-11df-8f0d-0002a5d5c51b/section1.pe
+  SECTION UI = "PciHostBridge"
+
+}
+
+FILE DRIVER = 3adf8dda-1850-44c5-8c63-bb991849bc6f  {
+  SECTION UI = "HashDxe"
+  SECTION VERSION = "None"
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-3adf8dda-1850-44c5-8c63-bb991849bc6f/section2.pe
+
+}
+
+FILE DRIVER = 5f0937cd-73f9-445e-b320-bb6fd5d3cbde  {
+  SECTION UI = "CipherDxe"
+  SECTION VERSION = "None"
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-5f0937cd-73f9-445e-b320-bb6fd5d3cbde/section2.pe
+
+}
+
+FILE DRIVER = b0d3689e-11f8-43c6-8ece-023a29cec35b  {
+  SECTION UI = "RngDxe"
+  SECTION VERSION = "None"
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b0d3689e-11f8-43c6-8ece-023a29cec35b/section2.pe
+
+}
+
+FILE DRIVER = 02b2b5a4-e7b6-44a8-a4c8-d52700c7aaa6  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-02b2b5a4-e7b6-44a8-a4c8-d52700c7aaa6/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-02b2b5a4-e7b6-44a8-a4c8-d52700c7aaa6/section1.pe
+  SECTION UI = "VariablePolicyControlDxe"
+
+}
+
+FILE DRIVER = 505a1007-32e0-4d76-9c82-3223048bc00b  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-505a1007-32e0-4d76-9c82-3223048bc00b/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-505a1007-32e0-4d76-9c82-3223048bc00b/section1.pe
+  SECTION UI = "ManufacturingModeDxe"
+
+}
+
+FILE DRIVER = e65dce73-eeac-4297-9b57-5ad6717dc0ef  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-e65dce73-eeac-4297-9b57-5ad6717dc0ef/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-e65dce73-eeac-4297-9b57-5ad6717dc0ef/section1.pe
+  SECTION UI = "CrashDumpModeDxe"
+
+}
+
+FILE DRIVER = 59cc11dc-1c60-11e1-a80f-a3b54824019b  {
+  SECTION UI = "TrEEDxe"
+  SECTION VERSION = "None"
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-59cc11dc-1c60-11e1-a80f-a3b54824019b/section2.pe
+
+}
+
+FILE DRIVER = 8c102bba-15a9-4c40-8599-6d0f5689da5b  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-8c102bba-15a9-4c40-8599-6d0f5689da5b/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-8c102bba-15a9-4c40-8599-6d0f5689da5b/section1.pe
+  SECTION UI = "HSUART"
+
+}
+
+FILE DRIVER = 44360fe1-c110-40db-8d76-592836fad332  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-44360fe1-c110-40db-8d76-592836fad332/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-44360fe1-c110-40db-8d76-592836fad332/section1.pe
+  SECTION UI = "UspTransportDxe"
+
+}
+
+FILE DRIVER = 378df556-dee0-4baa-9b6d-e24273fac759  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-378df556-dee0-4baa-9b6d-e24273fac759/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-378df556-dee0-4baa-9b6d-e24273fac759/section1.pe
+  SECTION UI = "UspHidDxe"
+
+}
+
+FILE DRIVER = e835dc2f-f49f-4334-b569-46e899167c5a  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-e835dc2f-f49f-4334-b569-46e899167c5a/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-e835dc2f-f49f-4334-b569-46e899167c5a/section1.pe
+  SECTION UI = "MsBoardIdInfoDxe"
+
+}
+
+FILE DRIVER = 50a15b6f-e3a9-4192-9640-369cb367c4de  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-50a15b6f-e3a9-4192-9640-369cb367c4de/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-50a15b6f-e3a9-4192-9640-369cb367c4de/section1.pe
+  SECTION UI = "SmBiosTableDxe"
+
+}
+
+FILE DRIVER = ce044919-3000-4998-82af-ddb4e17c6b66  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-ce044919-3000-4998-82af-ddb4e17c6b66/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-ce044919-3000-4998-82af-ddb4e17c6b66/section1.pe
+  SECTION UI = "AdapterInformationDxe"
+
+}
+
+FILE DRIVER = 857a8741-0eec-43bd-9482-27d14ed47d72  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-857a8741-0eec-43bd-9482-27d14ed47d72/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-857a8741-0eec-43bd-9482-27d14ed47d72/section1.pe
+  SECTION UI = "SimpleTextInOutSerial"
+
+}
+
+FILE DRIVER = 51ccf399-4fdf-4e55-a45b-e123f84d456a  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-51ccf399-4fdf-4e55-a45b-e123f84d456a/section0.pe
+  SECTION UI = "ConPlatformDxe"
+
+}
+
+FILE DRIVER = 408edcec-cf6d-477c-a5a8-b4844e3de281  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-408edcec-cf6d-477c-a5a8-b4844e3de281/section0.pe
+  SECTION UI = "ConSplitterDxe"
+
+}
+
+FILE DRIVER = cccb0c28-4b24-11d5-9a5a-0090273fc14d  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-cccb0c28-4b24-11d5-9a5a-0090273fc14d/section0.pe
+  SECTION UI = "GraphicsConsoleDxe"
+
+}
+
+FILE DRIVER = 42857f0a-13f2-4b21-8a23-53d3f714b840  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-42857f0a-13f2-4b21-8a23-53d3f714b840/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-42857f0a-13f2-4b21-8a23-53d3f714b840/section1.pe
+  SECTION UI = "CapsuleRuntimeDxe"
+
+}
+
+FILE DRIVER = 125e61d7-e824-4943-8be9-1add2b197360  {
+  SECTION UI = "MorPpiDxe"
+  SECTION VERSION = "None"
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-125e61d7-e824-4943-8be9-1add2b197360/section2.pe
+
+}
+
+FILE DRIVER = fdff263d-5f68-4591-87ba-b768f445a9af  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-fdff263d-5f68-4591-87ba-b768f445a9af/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-fdff263d-5f68-4591-87ba-b768f445a9af/section1.pe
+  SECTION UI = "Tcg2Dxe"
+
+}
+
+FILE DRIVER = 38345445-2751-414c-a7d6-4807c9397c46  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-38345445-2751-414c-a7d6-4807c9397c46/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-38345445-2751-414c-a7d6-4807c9397c46/section1.pe
+  SECTION UI = "MeasurePlatformFwBlobsDxe"
+
+}
+
+FILE DRIVER = ed15ffd5-bc96-4107-9118-95366600188e  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-ed15ffd5-bc96-4107-9118-95366600188e/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-ed15ffd5-bc96-4107-9118-95366600188e/section1.pe
+  SECTION UI = "FontDxe"
+
+}
+
+FILE DRIVER = 5246dcd6-1968-4bc6-b50e-620a0b629dc3  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-5246dcd6-1968-4bc6-b50e-620a0b629dc3/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-5246dcd6-1968-4bc6-b50e-620a0b629dc3/section1.pe
+  SECTION UI = "OSConfigDxe"
+
+}
+
+FILE DRIVER = 00160f8d-2b35-4df2-bbe0-b272a8d631f0  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-00160f8d-2b35-4df2-bbe0-b272a8d631f0/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-00160f8d-2b35-4df2-bbe0-b272a8d631f0/section1.pe
+  SECTION UI = "FirmwarePerformanceDxe"
+
+}
+
+FILE DRIVER = a2f436ea-a127-4ef8-957c-8048606ff670  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-a2f436ea-a127-4ef8-957c-8048606ff670/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-a2f436ea-a127-4ef8-957c-8048606ff670/section1.pe
+  SECTION UI = "SnpDxe"
+
+}
+
+FILE DRIVER = a210f973-229d-4f4d-aa37-9895e6c9eaba  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-a210f973-229d-4f4d-aa37-9895e6c9eaba/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-a210f973-229d-4f4d-aa37-9895e6c9eaba/section1.pe
+  SECTION UI = "DpcDxe"
+
+}
+
+FILE DRIVER = 529d3f93-e8e9-4e73-b1e1-bdf6a9d50113  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-529d3f93-e8e9-4e73-b1e1-bdf6a9d50113/section0.pe
+  SECTION UI = "ArpDxe"
+
+}
+
+FILE DRIVER = 94734718-0bbc-47fb-96a5-ee7a5ae6a2ad  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-94734718-0bbc-47fb-96a5-ee7a5ae6a2ad/section0.pe
+  SECTION UI = "Dhcp4Dxe"
+
+}
+
+FILE DRIVER = 9fb1a1f3-3b71-4324-b39a-745cbb015fff  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-9fb1a1f3-3b71-4324-b39a-745cbb015fff/section0.pe
+  SECTION UI = "Ip4Dxe"
+
+}
+
+FILE DRIVER = 025bbfc7-e6a9-4b8b-82ad-6815a1aeaf4a  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-025bbfc7-e6a9-4b8b-82ad-6815a1aeaf4a/section0.pe
+  SECTION UI = "MnpDxe"
+
+}
+
+FILE DRIVER = e4f61863-fe2c-4b56-a8f4-08519bc439df  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-e4f61863-fe2c-4b56-a8f4-08519bc439df/section0.pe
+  SECTION UI = "VlanConfigDxe"
+
+}
+
+FILE DRIVER = dc3641b8-2fa8-4ed3-bc1f-f9962a03454b  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-dc3641b8-2fa8-4ed3-bc1f-f9962a03454b/section0.pe
+  SECTION UI = "Mtftp4Dxe"
+
+}
+
+FILE DRIVER = 1a7e4468-2f55-4a56-903c-01265eb7622b  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-1a7e4468-2f55-4a56-903c-01265eb7622b/section0.pe
+  SECTION UI = "TcpDxe"
+
+}
+
+FILE DRIVER = 6d6963ab-906d-4a65-a7ca-bd40e5d6af2b  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-6d6963ab-906d-4a65-a7ca-bd40e5d6af2b/section0.pe
+  SECTION UI = "Udp4Dxe"
+
+}
+
+FILE DRIVER = b95e9fda-26de-48d2-8807-1f9107ac5e3a  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b95e9fda-26de-48d2-8807-1f9107ac5e3a/section0.pe
+  SECTION UI = "UefiPxeBcDxe"
+
+}
+
+FILE DRIVER = 5af77f10-90df-4e7e-8325-a17ec09d5443  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-5af77f10-90df-4e7e-8325-a17ec09d5443/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-5af77f10-90df-4e7e-8325-a17ec09d5443/section1.pe
+  SECTION UI = "UsbMsdDxe"
+
+}
+
+FILE DRIVER = b8e62775-bb0a-43f0-a843-5be8b14f8ccd  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b8e62775-bb0a-43f0-a843-5be8b14f8ccd/section0.pe
+  SECTION UI = "BootGraphicsResourceTableDxe"
+
+}
+
+FILE DRIVER = 96b5c032-df4c-4b6e-8232-438dcf448d0e  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-96b5c032-df4c-4b6e-8232-438dcf448d0e/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-96b5c032-df4c-4b6e-8232-438dcf448d0e/section1.pe
+  SECTION UI = "NullMemoryTestDxe"
+
+}
+
+FILE DRIVER = 9e5c7e1d-7e51-4516-bd5f-aa7e4380f714  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-9e5c7e1d-7e51-4516-bd5f-aa7e4380f714/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-9e5c7e1d-7e51-4516-bd5f-aa7e4380f714/section1.pe
+  SECTION UI = "MsManufacturingModeReclaimDxe"
+
+}
+
+FILE DRIVER = 328ac7d1-6d2b-4f6b-8a2d-ea6302a62f60  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-328ac7d1-6d2b-4f6b-8a2d-ea6302a62f60/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-328ac7d1-6d2b-4f6b-8a2d-ea6302a62f60/section1.pe
+  SECTION UI = "HwErrorBert"
+
+}
+
+FILE DRIVER = 665c717a-27ab-467e-a625-58141e4c2749  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-665c717a-27ab-467e-a625-58141e4c2749/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-665c717a-27ab-467e-a625-58141e4c2749/section1.pe
+  SECTION UI = "SamCapabilitiesDxe"
+
+}
+
+FILE DRIVER = d15d2363-5381-4dfe-bef0-c56381be91b9  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-d15d2363-5381-4dfe-bef0-c56381be91b9/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-d15d2363-5381-4dfe-bef0-c56381be91b9/section1.pe
+  SECTION UI = "SamMfgModeDxe"
+
+}
+
+FILE DRIVER = b5fc8271-002a-425a-b03e-049898571ee9  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b5fc8271-002a-425a-b03e-049898571ee9/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b5fc8271-002a-425a-b03e-049898571ee9/section1.pe
+  SECTION UI = "PowerSupply"
+
+}
+
+FILE DRIVER = 4e4667f5-b10f-41a3-aba2-f96473d3a006  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4e4667f5-b10f-41a3-aba2-f96473d3a006/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4e4667f5-b10f-41a3-aba2-f96473d3a006/section1.pe
+  SECTION UI = "TempSensors"
+
+}
+
+FILE DRIVER = 53fa1e47-c7ca-4f35-86c5-033cc186e9d3  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-53fa1e47-c7ca-4f35-86c5-033cc186e9d3/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-53fa1e47-c7ca-4f35-86c5-033cc186e9d3/section1.pe
+  SECTION UI = "Batteries"
+
+}
+
+FILE DRIVER = 0a35eb09-c8fd-4220-8bd0-9e19d2923a2e  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-0a35eb09-c8fd-4220-8bd0-9e19d2923a2e/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-0a35eb09-c8fd-4220-8bd0-9e19d2923a2e/section1.pe
+  SECTION UI = "SamRealTimeClockDxe"
+
+}
+
+FILE DRIVER = cc5c29ef-471c-2afd-3a63-5cb204750f67  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-cc5c29ef-471c-2afd-3a63-5cb204750f67/section0.pe
+  SECTION UI = "HidKeyboardDxe"
+
+}
+
+FILE DRIVER = a8761375-2f17-4662-ac31-1952b84b0ce9  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-a8761375-2f17-4662-ac31-1952b84b0ce9/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-a8761375-2f17-4662-ac31-1952b84b0ce9/section1.pe
+  SECTION UI = "SurfaceTouchHidDxe"
+
+}
+
+FILE DRIVER = d4e2f6ad-f3ad-40c5-aa14-183e68f4b5bd  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-d4e2f6ad-f3ad-40c5-aa14-183e68f4b5bd/section0.pe
+  SECTION UI = "HidMouseAbsolutePointerDxe"
+
+}
+
+FILE DRIVER = 0fcf3c47-4a1f-434c-a0bc-2d964c0fc1fd  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-0fcf3c47-4a1f-434c-a0bc-2d964c0fc1fd/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-0fcf3c47-4a1f-434c-a0bc-2d964c0fc1fd/section1.pe
+  SECTION UI = "GpioButtons"
+
+}
+
+FILE DRIVER = 2eee1603-d094-40d1-a3e5-56e54032660d  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-2eee1603-d094-40d1-a3e5-56e54032660d/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-2eee1603-d094-40d1-a3e5-56e54032660d/section1.pe
+  SECTION UI = "MsSmBiosTableStructures"
+
+}
+
+FILE DRIVER = 76168616-8ad5-4b6f-9445-50b801631f90  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-76168616-8ad5-4b6f-9445-50b801631f90/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-76168616-8ad5-4b6f-9445-50b801631f90/section1.pe
+  SECTION UI = "MsCalibrationServicingDxe"
+
+}
+
+FILE DRIVER = 17f5ef76-5e35-4a53-b32f-37e7b674999c  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-17f5ef76-5e35-4a53-b32f-37e7b674999c/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-17f5ef76-5e35-4a53-b32f-37e7b674999c/section1.pe
+  SECTION UI = "MsTouchUnlockDxe"
+
+}
+
+FILE APPLICATION = 50670071-478f-4be7-ad13-8754f379c62f  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-50670071-478f-4be7-ad13-8754f379c62f/section0.dxe.depex
+  SECTION UI = "MsBootPolicy"
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-50670071-478f-4be7-ad13-8754f379c62f/section2.pe
+
+}
+
+FILE DRIVER = 3977d4c4-b0eb-4548-96b9-671fa2e36820  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-3977d4c4-b0eb-4548-96b9-671fa2e36820/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-3977d4c4-b0eb-4548-96b9-671fa2e36820/section1.pe
+  SECTION UI = "MsEarlyGraphicsDxe"
+
+}
+
+FILE DRIVER = e36c8e31-d24a-4888-a13f-4205c89c2657  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-e36c8e31-d24a-4888-a13f-4205c89c2657/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-e36c8e31-d24a-4888-a13f-4205c89c2657/section1.pe
+  SECTION UI = "DisplayHandoffDxe"
+
+}
+
+FILE DRIVER = 02aa389e-ca29-43bf-be05-a4ca038812f2  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-02aa389e-ca29-43bf-be05-a4ca038812f2/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-02aa389e-ca29-43bf-be05-a4ca038812f2/section1.pe
+  SECTION UI = "RenderingEngineDxe"
+
+}
+
+FILE DRIVER = 8e747032-7d55-4d95-9a84-77f83370b3a4  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-8e747032-7d55-4d95-9a84-77f83370b3a4/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-8e747032-7d55-4d95-9a84-77f83370b3a4/section1.pe
+  SECTION UI = "SimpleWindowManagerDxe"
+
+}
+
+FILE DRIVER = 917c56f2-2fe3-498f-affb-87ac0e19fe5e  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-917c56f2-2fe3-498f-affb-87ac0e19fe5e/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-917c56f2-2fe3-498f-affb-87ac0e19fe5e/section1.pe
+  SECTION UI = "OnScreenKeyboardDxe"
+
+}
+
+FILE DRIVER = 16a5dd36-4c29-4e85-b0b9-c05883753de7  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-16a5dd36-4c29-4e85-b0b9-c05883753de7/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-16a5dd36-4c29-4e85-b0b9-c05883753de7/section1.pe
+  SECTION UI = "MsUiThemeProtocol"
+
+}
+
+FILE DRIVER = c09e4ce4-ae29-4340-b941-078871bd89d1  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-c09e4ce4-ae29-4340-b941-078871bd89d1/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-c09e4ce4-ae29-4340-b941-078871bd89d1/section1.pe
+  SECTION UI = "DisplayEngine"
+
+}
+
+FILE DRIVER = ebf342fe-b1d3-4ef8-957c-8048606ff671  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-ebf342fe-b1d3-4ef8-957c-8048606ff671/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-ebf342fe-b1d3-4ef8-957c-8048606ff671/section1.pe
+  SECTION UI = "SetupBrowser"
+
+}
+
+FILE DRIVER = 4ea43463-747c-46eb-97fb-b0e5c5f05306  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4ea43463-747c-46eb-97fb-b0e5c5f05306/section0.pe
+  SECTION UI = "UsbMouseAbsolutePointerDxe"
+
+}
+
+FILE APPLICATION = 4042708a-0f2d-4823-ac60-0d77b3111889  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4042708a-0f2d-4823-ac60-0d77b3111889/section0.dxe.depex
+  SECTION UI = "SurfaceFrontPage"
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4042708a-0f2d-4823-ac60-0d77b3111889/section2.pe
+
+}
+
+FILE DRIVER = 8d865e53-bd58-4e4c-8eca-ee96b620f40f  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-8d865e53-bd58-4e4c-8eca-ee96b620f40f/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-8d865e53-bd58-4e4c-8eca-ee96b620f40f/section1.pe
+  SECTION UI = "BootMenu"
+
+}
+
+FILE DRIVER = c9b8b0b7-9c85-46e8-b343-362fbd26e8f3  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-c9b8b0b7-9c85-46e8-b343-362fbd26e8f3/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-c9b8b0b7-9c85-46e8-b343-362fbd26e8f3/section1.pe
+  SECTION UI = "MuCryptoDxe"
+
+}
+
+FILE DRIVER = 3e197e9c-d8dc-42d3-89ce-b04fa9833756  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-3e197e9c-d8dc-42d3-89ce-b04fa9833756/section0.pe
+  SECTION UI = "RegularExpressionDxe"
+
+}
+
+FILE DRIVER = cbb497b8-7f8d-48e6-a535-09b71955e669  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-cbb497b8-7f8d-48e6-a535-09b71955e669/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-cbb497b8-7f8d-48e6-a535-09b71955e669/section1.pe
+  SECTION UI = "MuBuiltInVarPolicyInstallerDxe"
+
+}
+
+FILE DRIVER = 0ccf27cf-e68d-4279-96b0-8a4e1cdff10c  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-0ccf27cf-e68d-4279-96b0-8a4e1cdff10c/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-0ccf27cf-e68d-4279-96b0-8a4e1cdff10c/section1.pe
+  SECTION UI = "SettingsManagerDxe"
+
+}
+
+FILE DRIVER = 75e4f29c-5122-4fc7-b383-63d23a3ffbe7  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-75e4f29c-5122-4fc7-b383-63d23a3ffbe7/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-75e4f29c-5122-4fc7-b383-63d23a3ffbe7/section1.pe
+  SECTION UI = "SemmManager"
+
+}
+
+FILE DRIVER = 07f1b357-4270-4122-a32a-7eab3c013bac  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-07f1b357-4270-4122-a32a-7eab3c013bac/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-07f1b357-4270-4122-a32a-7eab3c013bac/section1.pe
+  SECTION UI = "DfciManager"
+
+}
+
+FILE DRIVER = f8126429-7b88-4ad2-98c4-402cbe26f9a8  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f8126429-7b88-4ad2-98c4-402cbe26f9a8/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f8126429-7b88-4ad2-98c4-402cbe26f9a8/section1.pe
+  SECTION UI = "IdentityAndAuthManagerDxe"
+
+}
+
+FILE DRIVER = ae8f0389-6ba2-47d3-9e55-80b3dd9b8a98  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-ae8f0389-6ba2-47d3-9e55-80b3dd9b8a98/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-ae8f0389-6ba2-47d3-9e55-80b3dd9b8a98/section1.pe
+  SECTION UI = "DfciMenu"
+
+}
+
+FILE DRIVER = d2d0f580-11ab-4728-bd67-c89d04d1e9e3  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-d2d0f580-11ab-4728-bd67-c89d04d1e9e3/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-d2d0f580-11ab-4728-bd67-c89d04d1e9e3/section1.pe
+  SECTION UI = "SemmMenu"
+
+}
+
+FILE DRIVER = 0f1cabfc-503a-49cf-a965-9c65dd95b7ec  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-0f1cabfc-503a-49cf-a965-9c65dd95b7ec/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-0f1cabfc-503a-49cf-a965-9c65dd95b7ec/section1.pe
+  SECTION UI = "MsProtectionPolicyDxe"
+
+}
+
+FILE DRIVER = ff626da9-17ee-4949-a8b8-b10fa0044e9f  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-ff626da9-17ee-4949-a8b8-b10fa0044e9f/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-ff626da9-17ee-4949-a8b8-b10fa0044e9f/section1.pe
+  SECTION UI = "EsrtFmpDxe"
+
+}
+
+FILE DRIVER = e33bf1c8-8237-4fed-9ed3-1f4483abc554  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-e33bf1c8-8237-4fed-9ed3-1f4483abc554/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-e33bf1c8-8237-4fed-9ed3-1f4483abc554/section1.pe
+  SECTION UI = "FmpDxe"
+
+}
+
+FILE DRIVER = f7565f19-fed1-47a9-b3a4-bdcc164d54fc  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f7565f19-fed1-47a9-b3a4-bdcc164d54fc/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-f7565f19-fed1-47a9-b3a4-bdcc164d54fc/section1.pe
+  SECTION UI = "FmpDxe"
+
+}
+
+FILE DRIVER = 29b5dcca-8ebe-43ed-9d1c-bbf7fc430dd7  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-29b5dcca-8ebe-43ed-9d1c-bbf7fc430dd7/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-29b5dcca-8ebe-43ed-9d1c-bbf7fc430dd7/section1.pe
+  SECTION UI = "FmpDxe"
+
+}
+
+FILE DRIVER = c6d7532a-10d5-47f9-9b2a-f4fdf64ca4fe  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-c6d7532a-10d5-47f9-9b2a-f4fdf64ca4fe/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-c6d7532a-10d5-47f9-9b2a-f4fdf64ca4fe/section1.pe
+  SECTION UI = "FmpDxe"
+
+}
+
+FILE DRIVER = 05472c14-acb9-4458-a354-a68357ac3bf0  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-05472c14-acb9-4458-a354-a68357ac3bf0/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-05472c14-acb9-4458-a354-a68357ac3bf0/section1.pe
+  SECTION UI = "FmpDxe"
+
+}
+
+FILE DRIVER = b039d930-78b7-47c7-8ae3-c243d51750b5  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b039d930-78b7-47c7-8ae3-c243d51750b5/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-b039d930-78b7-47c7-8ae3-c243d51750b5/section1.pe
+  SECTION UI = "FmpDxe"
+
+}
+
+FILE DRIVER = 7a26d1bd-0557-4b78-8ca1-1e40c7ad9f4d  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7a26d1bd-0557-4b78-8ca1-1e40c7ad9f4d/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7a26d1bd-0557-4b78-8ca1-1e40c7ad9f4d/section1.pe
+  SECTION UI = "ColorbarsDxe"
+
+}
+
+FILE DRIVER = da427cbf-a788-4909-9378-85def2483b75  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-da427cbf-a788-4909-9378-85def2483b75/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-da427cbf-a788-4909-9378-85def2483b75/section1.pe
+  SECTION UI = "MsReservedMemoryOpregionDxe"
+
+}
+
+FILE DRIVER = a30d41ab-e326-4e75-a9ed-403e194b2b7f  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-a30d41ab-e326-4e75-a9ed-403e194b2b7f/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-a30d41ab-e326-4e75-a9ed-403e194b2b7f/section1.pe
+  SECTION UI = "SurfaceOA3"
+
+}
+
+FILE DRIVER = fda8208e-2ec0-455a-8a31-095353c668f8  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-fda8208e-2ec0-455a-8a31-095353c668f8/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-fda8208e-2ec0-455a-8a31-095353c668f8/section1.pe
+  SECTION UI = "ResetReasonDxe"
+
+}
+
+FILE DRIVER = 7c7ac5ea-21da-45f3-8b77-91fbbc04018e  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7c7ac5ea-21da-45f3-8b77-91fbbc04018e/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-7c7ac5ea-21da-45f3-8b77-91fbbc04018e/section1.pe
+  SECTION UI = "SamResetReasonDxe"
+
+}
+
+FILE FREEFORM = 4ba47e84-4ef7-11e8-ad64-832b78eea48d  {
+  SECTION UI = "MS_J_Panel_EDP.xml"
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-4ba47e84-4ef7-11e8-ad64-832b78eea48d/section1.raw
+
+}
+
+FILE FREEFORM = a1e235de-e825-4591-9623-c43175811826  {
+  SECTION UI = "SecParti.cfg"
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-a1e235de-e825-4591-9623-c43175811826/section1.raw
+
+}
+
+FILE FREEFORM = 21e9bdd9-6c3f-4f10-84a5-bbec322741f1  {
+  SECTION UI = "uefipil.cfg"
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section1/volume-0/file-21e9bdd9-6c3f-4f10-84a5-bbec322741f1/section1.raw
+
+}
+
+
+[FV.FV_ee4e5898_3914_4259_9d6e_dc7bd79403cf]
+BlockSize          = 0x10000
+FvAlignment        = 16
+ERASE_POLARITY     = 1
+MEMORY_MAPPED      = TRUE
+STICKY_WRITE       = TRUE
+LOCK_CAP           = TRUE
+LOCK_STATUS        = TRUE
+WRITE_DISABLED_CAP = TRUE
+WRITE_ENABLED_CAP  = TRUE
+WRITE_STATUS       = TRUE
+WRITE_LOCK_CAP     = TRUE
+WRITE_LOCK_STATUS  = TRUE
+READ_DISABLED_CAP  = TRUE
+READ_ENABLED_CAP   = TRUE
+READ_STATUS        = TRUE
+READ_LOCK_CAP      = TRUE
+READ_LOCK_STATUS   = TRUE
+
+
+FILE FREEFORM = 7bb28b99-61bb-11d5-9a5d-0090273fc14d  {
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-7bb28b99-61bb-11d5-9a5d-0090273fc14d/section0.raw
+  SECTION UI = "Logo"
+
+}
+
+FILE FREEFORM = d2af039e-9f1f-4616-97af-be4509a365ea  {
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-d2af039e-9f1f-4616-97af-be4509a365ea/section0.raw
+  SECTION UI = "Low Battery"
+
+}
+
+FILE FREEFORM = 7c3a8851-a6d2-445b-a53b-155f867ab4da  {
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-7c3a8851-a6d2-445b-a53b-155f867ab4da/section0.raw
+  SECTION UI = "Too Hot"
+
+}
+
+FILE FREEFORM = 4ffee6d5-b396-40f9-9246-7a8e4a821720  {
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-4ffee6d5-b396-40f9-9246-7a8e4a821720/section0.raw
+  SECTION UI = "FirmwareSettingsIndicator"
+
+}
+
+FILE FREEFORM = f1e7a352-46ae-4912-92af-36ab51781d8e  {
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-f1e7a352-46ae-4912-92af-36ab51781d8e/section0.raw
+  SECTION UI = "BootFailIndicator"
+
+}
+
+FILE FREEFORM = ae2d011c-4128-4960-a536-b424ccc3d1ea  {
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-ae2d011c-4128-4960-a536-b424ccc3d1ea/section0.raw
+  SECTION UI = "VolumeUpIndicator"
+
+}
+
+FILE FREEFORM = e49d8e2e-a706-4a54-49b6-8d423b397461  {
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-e49d8e2e-a706-4a54-49b6-8d423b397461/section0.raw
+
+}
+
+FILE FREEFORM = 84f92079-ea4b-48e3-b883-9c4dafcb50ae  {
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-84f92079-ea4b-48e3-b883-9c4dafcb50ae/section0.raw
+
+}
+
+FILE DRIVER = e622443c-284e-4b47-a984-fd66b482dac0  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-e622443c-284e-4b47-a984-fd66b482dac0/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-e622443c-284e-4b47-a984-fd66b482dac0/section1.pe
+  SECTION UI = "BootManagerPolicyDxe"
+
+}
+
+FILE DRIVER = 5bedb5cc-d830-4eb2-8742-2d4cc9b54f2c  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-5bedb5cc-d830-4eb2-8742-2d4cc9b54f2c/section0.pe
+  SECTION UI = "Ip6Dxe"
+
+}
+
+FILE DRIVER = 95e3669d-34be-4775-a651-7ea41b69d89e  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-95e3669d-34be-4775-a651-7ea41b69d89e/section0.pe
+  SECTION UI = "Dhcp6Dxe"
+
+}
+
+FILE DRIVER = d912c7bc-f098-4367-92ba-e911083c7b0e  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-d912c7bc-f098-4367-92ba-e911083c7b0e/section0.pe
+  SECTION UI = "Udp6Dxe"
+
+}
+
+FILE DRIVER = 99f03b99-98d8-49dd-a8d3-3219d0ffe41e  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-99f03b99-98d8-49dd-a8d3-3219d0ffe41e/section0.pe
+  SECTION UI = "Mtftp6Dxe"
+
+}
+
+FILE DRIVER = b219e140-dffc-11e3-b956-0022681e6906  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-b219e140-dffc-11e3-b956-0022681e6906/section0.pe
+  SECTION UI = "DnsDxe"
+
+}
+
+FILE DRIVER = 2366c20f-e15a-11e3-8bf1-e4115b28bc50  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-2366c20f-e15a-11e3-8bf1-e4115b28bc50/section0.pe
+  SECTION UI = "HttpDxe"
+
+}
+
+FILE DRIVER = 22ea234f-e72a-11e4-91f9-28d2447c4829  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-22ea234f-e72a-11e4-91f9-28d2447c4829/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-22ea234f-e72a-11e4-91f9-28d2447c4829/section1.pe
+  SECTION UI = "HttpUtilitiesDxe"
+
+}
+
+FILE DRIVER = c1e15908-ab7b-4da8-8c56-417b0b0d8d5b  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-c1e15908-ab7b-4da8-8c56-417b0b0d8d5b/section0.pe
+  SECTION UI = "SharedTlsDxeRelease"
+  SECTION VERSION = "None"
+
+}
+
+FILE DRIVER = d3d3f029-8c5e-411d-9a62-672138097ec3  {
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-d3d3f029-8c5e-411d-9a62-672138097ec3/section0.pe
+  SECTION UI = "Ms Network"
+
+}
+
+FILE FREEFORM = ba8e0276-1ec6-4eac-b78f-612fe7694438  {
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-ba8e0276-1ec6-4eac-b78f-612fe7694438/section0.raw
+
+}
+
+FILE DRIVER = 32e4e2dd-05b7-4927-aee3-d4d4d73b8183  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-32e4e2dd-05b7-4927-aee3-d4d4d73b8183/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-32e4e2dd-05b7-4927-aee3-d4d4d73b8183/section1.pe
+  SECTION UI = "MsSSDEntryLoggerDxe"
+
+}
+
+FILE DRIVER = 0a84f6e2-c907-4908-8267-db135310884f  {
+  SECTION DXE_DEPEX = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-0a84f6e2-c907-4908-8267-db135310884f/section0.dxe.depex
+  SECTION PE32 = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section1/volume-0/file-0a84f6e2-c907-4908-8267-db135310884f/section1.pe
+  SECTION UI = "VariableDefaultsDxe"
+
+}
+
+
+[FV.FV_GENERIC]
+BlockSize          = 0x10000
+FvAlignment        = 16
+ERASE_POLARITY     = 1
+MEMORY_MAPPED      = TRUE
+STICKY_WRITE       = TRUE
+LOCK_CAP           = TRUE
+LOCK_STATUS        = TRUE
+WRITE_DISABLED_CAP = TRUE
+WRITE_ENABLED_CAP  = TRUE
+WRITE_STATUS       = TRUE
+WRITE_LOCK_CAP     = TRUE
+WRITE_LOCK_STATUS  = TRUE
+READ_DISABLED_CAP  = TRUE
+READ_ENABLED_CAP   = TRUE
+READ_STATUS        = TRUE
+READ_LOCK_CAP      = TRUE
+READ_LOCK_STATUS   = TRUE
+
+
+FILE SEC = 8af09f13-44c5-96ec-1437-dd899cb5ee5d  {
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-1/section0.raw
+  SECTION TE = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-1/section1.te
+
+}
+
+FILE FREEFORM = dde58710-41cd-4306-dbfb-3fa90bb1d2dd  {
+  SECTION UI = "uefiplat.cfg"
+  SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-3/section1.raw
+
+}
+
+FILE FV_IMAGE = 9e21fd93-9c72-4c15-8c4b-e77f1db2d792  {
+  SECTION GUIDED 9e21fd93-9c72-4c15-8c4b-e77f1db2d792  {
+    SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-2/section0/section0.raw
+    SECTION FV_IMAGE = FV_ee4e5898_3914_4259_9d6e_dc7bd79403cf
+
+  }
+
+}
+
+FILE FV_IMAGE = 8acf1180-6af9-436d-a8ee-f7043c19af18  {
+  SECTION GUIDED 8acf1180-6af9-436d-a8ee-f7043c19af18  {
+    SECTION RAW = BOOT.XF.3.0.1-00243-SC8180XWZB-2/volume-0/file-0/section0/section0.raw
+    SECTION FV_IMAGE = FV_ee4e5898_3914_4259_9d6e_dc7bd79403cf
+
+  }
+
+}
+
