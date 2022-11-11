@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsDynamicSmfEsrtDxe"
+  FILE_GUID      = 2FC9A4DB-4CFC-4D2E-8AFC-FF6219A00AC3
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsDynamicSmfEsrtDxe.depex|RELEASE
+   PE32|MsDynamicSmfEsrtDxe.efi|RELEASE

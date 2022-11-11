@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "TouchUtilsDxe"
+  FILE_GUID      = 6ADD2ABE-B88E-4AFD-A0FF-438F91D51CF5
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|TouchUtilsDxe.depex|RELEASE
+   PE32|TouchUtilsDxe.efi|RELEASE

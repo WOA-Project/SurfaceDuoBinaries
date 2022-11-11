@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "GpioButtons"
+  FILE_GUID      = 0FCF3C47-4A1F-434C-A0BC-2D964C0FC1FD
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|GpioButtons.depex|RELEASE
+   PE32|GpioButtons.efi|RELEASE

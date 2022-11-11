@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "PowerSupply"
+  FILE_GUID      = B5FC8271-002A-425A-B03E-049898571EE9
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|PowerSupply.depex|RELEASE
+   PE32|PowerSupply.efi|RELEASE

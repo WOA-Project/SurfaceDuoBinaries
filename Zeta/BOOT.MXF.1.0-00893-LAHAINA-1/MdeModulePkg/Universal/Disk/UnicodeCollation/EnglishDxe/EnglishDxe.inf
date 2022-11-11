@@ -1,0 +1,10 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "EnglishDxe"
+  FILE_GUID      = CD3BAFB6-50FB-4FE8-8E4E-AB74D2C1A600
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   PE32|EnglishDxe.efi|RELEASE

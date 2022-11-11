@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "NullMemoryTestDxe"
+  FILE_GUID      = 96B5C032-DF4C-4B6E-8232-438DCF448D0E
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|NullMemoryTestDxe.depex|RELEASE
+   PE32|NullMemoryTestDxe.efi|RELEASE

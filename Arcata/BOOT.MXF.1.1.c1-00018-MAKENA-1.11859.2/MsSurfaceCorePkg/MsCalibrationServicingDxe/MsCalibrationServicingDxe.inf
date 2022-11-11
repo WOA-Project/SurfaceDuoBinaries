@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsCalibrationServicingDxe"
+  FILE_GUID      = 76168616-8AD5-4B6F-9445-50B801631F90
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsCalibrationServicingDxe.depex|RELEASE
+   PE32|MsCalibrationServicingDxe.efi|RELEASE

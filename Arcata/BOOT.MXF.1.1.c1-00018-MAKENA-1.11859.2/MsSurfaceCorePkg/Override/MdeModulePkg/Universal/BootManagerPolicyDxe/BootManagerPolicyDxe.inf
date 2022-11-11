@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "BootManagerPolicyDxe"
+  FILE_GUID      = E622443C-284E-4B47-A984-FD66B482DAC0
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|BootManagerPolicyDxe.depex|RELEASE
+   PE32|BootManagerPolicyDxe.efi|RELEASE

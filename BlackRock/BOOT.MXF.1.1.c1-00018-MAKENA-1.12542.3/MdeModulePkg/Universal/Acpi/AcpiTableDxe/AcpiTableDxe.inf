@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "AcpiTableDxe"
+  FILE_GUID      = 9622E42C-8E38-4A08-9E8F-54F784652F6B
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|AcpiTableDxe.depex|RELEASE
+   PE32|AcpiTableDxe.efi|RELEASE

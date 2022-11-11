@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "ManufacturingModeDxe"
+  FILE_GUID      = 505A1007-32E0-4D76-9C82-3223048BC00B
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsManufacturingMode.depex|RELEASE
+   PE32|MsManufacturingMode.efi|RELEASE

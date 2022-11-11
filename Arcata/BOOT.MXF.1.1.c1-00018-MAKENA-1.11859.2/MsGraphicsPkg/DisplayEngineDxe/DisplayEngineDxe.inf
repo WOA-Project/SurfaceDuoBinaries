@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "DisplayEngine"
+  FILE_GUID      = C09E4CE4-AE29-4340-B941-078871BD89D1
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|DisplayEngineDxe.depex|RELEASE
+   PE32|DisplayEngineDxe.efi|RELEASE

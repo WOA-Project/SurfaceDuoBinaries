@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsWheaReportDxe"
+  FILE_GUID      = 995F045B-0265-46A4-8D21-001211A24A4F
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsWheaReportDxe.depex|RELEASE
+   PE32|MsWheaReportDxe.efi|RELEASE

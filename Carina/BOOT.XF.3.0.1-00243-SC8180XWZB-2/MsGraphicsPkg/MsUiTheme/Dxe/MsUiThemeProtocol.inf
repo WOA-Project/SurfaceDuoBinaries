@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsUiThemeProtocol"
+  FILE_GUID      = 16A5DD36-4C29-4E85-B0B9-C05883753DE7
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsUiThemeProtocol.depex|RELEASE
+   PE32|MsUiThemeProtocol.efi|RELEASE

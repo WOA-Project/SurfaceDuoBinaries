@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsDebugDxe"
+  FILE_GUID      = 4EEC629B-7CE2-4717-A22D-91AF2A4B42A7
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsDebugDxe.depex|RELEASE
+   PE32|MsDebugDxe.efi|RELEASE

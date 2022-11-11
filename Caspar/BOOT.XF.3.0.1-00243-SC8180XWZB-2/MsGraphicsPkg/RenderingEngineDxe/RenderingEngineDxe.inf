@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "RenderingEngineDxe"
+  FILE_GUID      = 02AA389E-CA29-43BF-BE05-A4CA038812F2
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|RenderingEngineDxe.depex|RELEASE
+   PE32|RenderingEngineDxe.efi|RELEASE

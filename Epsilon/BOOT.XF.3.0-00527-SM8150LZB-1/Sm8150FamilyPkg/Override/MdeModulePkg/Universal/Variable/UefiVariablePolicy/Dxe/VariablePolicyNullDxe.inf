@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "VariablePolicyNullDxe"
+  FILE_GUID      = 054F3AE2-D80C-4DBC-A9BC-06042401FA16
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|VariablePolicyNullDxe.depex|RELEASE
+   PE32|VariablePolicyNullDxe.efi|RELEASE

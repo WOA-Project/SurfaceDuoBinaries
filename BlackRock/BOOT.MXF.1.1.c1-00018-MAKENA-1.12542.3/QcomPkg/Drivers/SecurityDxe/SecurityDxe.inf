@@ -1,0 +1,10 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "SecurityDxe"
+  FILE_GUID      = 5E0EAE60-EAED-4D75-B8BF-EDBBAABC3F09
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   PE32|SecurityDxe.efi|RELEASE

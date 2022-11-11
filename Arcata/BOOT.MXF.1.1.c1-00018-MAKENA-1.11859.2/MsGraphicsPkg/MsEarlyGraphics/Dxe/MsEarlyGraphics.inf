@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsEarlyGraphicsDxe"
+  FILE_GUID      = 3977D4C4-B0EB-4548-96B9-671FA2E36820
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsEarlyGraphics.depex|RELEASE
+   PE32|MsEarlyGraphics.efi|RELEASE

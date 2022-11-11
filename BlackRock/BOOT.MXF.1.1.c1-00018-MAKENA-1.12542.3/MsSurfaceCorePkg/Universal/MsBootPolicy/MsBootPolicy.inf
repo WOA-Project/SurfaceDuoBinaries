@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsBootPolicy"
+  FILE_GUID      = 50670071-478F-4BE7-AD13-8754F379C62F
+  MODULE_TYPE    = UEFI_APPLICATION
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsBootPolicy.depex|RELEASE
+   PE32|MsBootPolicy.efi|RELEASE

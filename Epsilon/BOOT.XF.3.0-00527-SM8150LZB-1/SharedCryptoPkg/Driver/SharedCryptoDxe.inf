@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "SharedCryptoDxe"
+  FILE_GUID      = FEA01457-E381-4135-9475-C6AFD0076C61
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|SharedCryptoDxe.depex|RELEASE
+   PE32|SharedCryptoDxe.efi|RELEASE

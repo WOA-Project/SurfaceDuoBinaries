@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsMeasurePreUefiFwDxe"
+  FILE_GUID      = 5C19A30F-D832-46EC-9E99-B55411A5A497
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsMeasurePreUefiFwDxe.depex|RELEASE
+   PE32|MsMeasurePreUefiFwDxe.efi|RELEASE

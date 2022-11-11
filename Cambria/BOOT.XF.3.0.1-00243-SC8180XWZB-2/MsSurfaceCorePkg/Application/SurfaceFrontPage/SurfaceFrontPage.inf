@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "SurfaceFrontPage"
+  FILE_GUID      = 4042708A-0F2D-4823-AC60-0D77B3111889
+  MODULE_TYPE    = UEFI_APPLICATION
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|SurfaceFrontPage.depex|RELEASE
+   PE32|SurfaceFrontPage.efi|RELEASE

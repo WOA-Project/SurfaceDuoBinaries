@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "VariablePolicyControlDxe"
+  FILE_GUID      = 02B2B5A4-E7B6-44A8-A4C8-D52700C7AAA6
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|VariablePolicyControlDxe.depex|RELEASE
+   PE32|VariablePolicyControlDxe.efi|RELEASE

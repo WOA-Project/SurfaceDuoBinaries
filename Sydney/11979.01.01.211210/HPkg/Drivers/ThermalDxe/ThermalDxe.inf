@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "ThermalDxe"
+  FILE_GUID      = 9DA3FB6D-02CF-43E4-85FF-032B2C5245F6
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|ThermalDxe.depex|RELEASE
+   PE32|ThermalDxe.efi|RELEASE

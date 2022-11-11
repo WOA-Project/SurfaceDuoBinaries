@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "CheckHardwareConnected"
+  FILE_GUID      = E1732F53-53CC-4B6C-90EB-CF4161A1C9ED
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|CheckHardwareConnected.depex|RELEASE
+   PE32|CheckHardwareConnected.efi|RELEASE

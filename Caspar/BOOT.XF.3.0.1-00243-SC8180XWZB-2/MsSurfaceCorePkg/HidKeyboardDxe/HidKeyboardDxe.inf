@@ -1,0 +1,10 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "HidKeyboardDxe"
+  FILE_GUID      = CC5C29EF-471C-2AFD-3A63-5CB204750F67
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   PE32|HidKeyboardDxe.efi|RELEASE

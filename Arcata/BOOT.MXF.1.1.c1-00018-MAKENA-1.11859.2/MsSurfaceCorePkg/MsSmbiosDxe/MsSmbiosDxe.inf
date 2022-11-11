@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsSmBiosTableStructures"
+  FILE_GUID      = 2EEE1603-D094-40D1-A3E5-56E54032660D
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsSmbiosDxe.depex|RELEASE
+   PE32|MsSmbiosDxe.efi|RELEASE

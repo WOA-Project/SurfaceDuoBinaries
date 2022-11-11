@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "GopOverrideDxe"
+  FILE_GUID      = 27D4595D-D3AA-4008-9B02-881B0AC25F09
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|GopOverrideDxe.depex|RELEASE
+   PE32|GopOverrideDxe.efi|RELEASE

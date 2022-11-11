@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsReservedMemoryOpregionDxe"
+  FILE_GUID      = DA427CBF-A788-4909-9378-85DEF2483B75
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsReservedMemoryOpregionDxe.depex|RELEASE
+   PE32|MsReservedMemoryOpregionDxe.efi|RELEASE

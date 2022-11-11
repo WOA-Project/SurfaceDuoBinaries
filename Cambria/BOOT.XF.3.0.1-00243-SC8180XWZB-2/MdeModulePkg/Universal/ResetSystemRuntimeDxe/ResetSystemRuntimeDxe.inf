@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "ResetSystemRuntimeDxe"
+  FILE_GUID      = 4B28E4C7-FF36-4E10-93CF-A82159E777C5
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|ResetSystemRuntimeDxe.depex|RELEASE
+   PE32|ResetSystemRuntimeDxe.efi|RELEASE

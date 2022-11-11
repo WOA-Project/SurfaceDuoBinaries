@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "IdentityAndAuthManagerDxe"
+  FILE_GUID      = F8126429-7B88-4AD2-98C4-402CBE26F9A8
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|IdentityAndAuthManagerDxe.depex|RELEASE
+   PE32|IdentityAndAuthManagerDxe.efi|RELEASE

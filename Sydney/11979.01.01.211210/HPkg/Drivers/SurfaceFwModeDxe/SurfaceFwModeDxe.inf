@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "SurfaceFwModeDxe"
+  FILE_GUID      = 76744ADF-04F9-474A-8B88-04AD4A4D8DEE
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|SurfaceFwModeDxe.depex|RELEASE
+   PE32|SurfaceFwModeDxe.efi|RELEASE

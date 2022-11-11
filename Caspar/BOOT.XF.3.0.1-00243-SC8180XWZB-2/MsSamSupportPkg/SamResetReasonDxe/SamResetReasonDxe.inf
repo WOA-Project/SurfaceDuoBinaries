@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "SamResetReasonDxe"
+  FILE_GUID      = 7C7AC5EA-21DA-45F3-8B77-91FBBC04018E
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|SamResetReasonDxe.depex|RELEASE
+   PE32|SamResetReasonDxe.efi|RELEASE

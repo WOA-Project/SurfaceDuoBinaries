@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsTouchUnlockDxe"
+  FILE_GUID      = 17F5EF76-5E35-4A53-B32F-37E7B674999C
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsTouchUnlockDxe.depex|RELEASE
+   PE32|MsTouchUnlockDxe.efi|RELEASE

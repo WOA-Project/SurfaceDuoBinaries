@@ -1,0 +1,12 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "SharedCryptoDriverDxeMu"
+  FILE_GUID      = 5550445C-7B09-4D69-8198-7060F9C1C732
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|SharedCryptoDriverDxeMu.depex|RELEASE
+   RAW|SharedCryptoDriverDxeMu.raw|RELEASE
+   PE32|SharedCryptoDriverDxeMu.efi|RELEASE

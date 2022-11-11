@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "FirmwareBootPerformanceDxe"
+  FILE_GUID      = C047CDE8-BFD7-4E17-A168-D0406D83E78F
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|FirmwareBootPerformanceDxe.depex|RELEASE
+   PE32|FirmwareBootPerformanceDxe.efi|RELEASE

@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "SetTimeMenu"
+  FILE_GUID      = 074359F2-2773-4E63-896F-6CB93C6571E9
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|SetTimeMenu.depex|RELEASE
+   PE32|SetTimeMenu.efi|RELEASE

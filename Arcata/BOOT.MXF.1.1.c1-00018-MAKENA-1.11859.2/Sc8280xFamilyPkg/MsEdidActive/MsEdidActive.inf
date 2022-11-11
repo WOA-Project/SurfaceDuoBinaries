@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsEdidActive"
+  FILE_GUID      = 47D8C43F-0957-46B0-928B-9B12D3BD09A8
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsEdidActive.depex|RELEASE
+   PE32|MsEdidActive.efi|RELEASE

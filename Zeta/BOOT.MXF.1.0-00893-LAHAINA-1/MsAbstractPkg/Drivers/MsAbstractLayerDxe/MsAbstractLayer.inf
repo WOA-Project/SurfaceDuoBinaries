@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsAbstractLayerDxe"
+  FILE_GUID      = BD97F704-CE48-11EB-916C-DB1F9C585103
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsAbstractLayer.depex|RELEASE
+   PE32|MsAbstractLayer.efi|RELEASE

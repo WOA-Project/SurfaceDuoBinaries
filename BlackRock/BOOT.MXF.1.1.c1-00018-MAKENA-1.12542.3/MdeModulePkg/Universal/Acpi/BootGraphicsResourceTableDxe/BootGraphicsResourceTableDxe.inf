@@ -1,0 +1,10 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "BootGraphicsResourceTableDxe"
+  FILE_GUID      = B8E62775-BB0A-43F0-A843-5BE8B14F8CCD
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   PE32|BootGraphicsResourceTableDxe.efi|RELEASE

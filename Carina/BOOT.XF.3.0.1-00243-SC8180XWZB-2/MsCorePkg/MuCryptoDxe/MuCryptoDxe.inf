@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MuCryptoDxe"
+  FILE_GUID      = C9B8B0B7-9C85-46E8-B343-362FBD26E8F3
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MuCryptoDxe.depex|RELEASE
+   PE32|MuCryptoDxe.efi|RELEASE

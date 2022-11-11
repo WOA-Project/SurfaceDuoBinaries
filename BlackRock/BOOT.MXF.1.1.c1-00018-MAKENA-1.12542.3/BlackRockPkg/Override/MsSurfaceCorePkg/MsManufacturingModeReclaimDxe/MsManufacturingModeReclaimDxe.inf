@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "MsManufacturingModeReclaimDxe"
+  FILE_GUID      = CA45E2AB-C979-479E-B69D-2A8D7DD53582
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|MsManufacturingModeReclaimDxe.depex|RELEASE
+   PE32|MsManufacturingModeReclaimDxe.efi|RELEASE

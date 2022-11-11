@@ -1,11 +1,14 @@
 # Firmware Binaries
 
-This repository contains various UEFI firmwares extracted using https://github.com/theopolis/uefi-firmware-parser
+This repository contains various UEFI firmwares extracted using https://github.com/WOA-Project/UEFIReader
 
-## How to reproduce
+## Terminology
 
-```
-uefi-firmware-parser -o ./Output -O -b -g BOOT.XF.3.0-00527-SM8150LZB-1 ./11
-```
-
-Where ```./11``` is an UEFI image.
+Arcata: Surface Pro 9 5G
+BlackRock: Windows Dev Kit 2023
+Cambria: Surface Pro X
+Carina: Surface Pro X Gen 2
+Caspar: Surface Pro X Wi-Fi
+Epsilon: Surface Duo
+Sydney: Microsoft Hololens 2
+Zeta: Surface Duo 2

@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "TempSensors"
+  FILE_GUID      = 4E4667F5-B10F-41A3-ABA2-F96473D3A006
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|TempSensors.depex|RELEASE
+   PE32|TempSensors.efi|RELEASE

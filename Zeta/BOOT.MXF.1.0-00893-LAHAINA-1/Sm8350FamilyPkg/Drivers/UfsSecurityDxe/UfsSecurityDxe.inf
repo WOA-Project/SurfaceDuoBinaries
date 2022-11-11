@@ -1,0 +1,11 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = "UfsSecurityDxe"
+  FILE_GUID      = 89D36821-FAAB-4390-A812-DE1D655372BA
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|UfsSecurityDxe.depex|RELEASE
+   PE32|UfsSecurityDxe.efi|RELEASE
