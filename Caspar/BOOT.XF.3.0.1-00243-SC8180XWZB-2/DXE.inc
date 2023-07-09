@@ -59,7 +59,7 @@ INF QcomPkg/Drivers/VariableDxe/VariableDxe.inf
 INF Sc8180xFamilyPkg/MsEnvDxe/MsEnvDxe.inf
 INF QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
 INF MsSurfaceCorePkg/MuBuiltInVarPolicyInstallerDxe/MuBuiltInVarPolicyInstallerDxe.inf
-INF MsCorePkg/MuVarPolicyFoundationDxe/MuVarPolicyFoundationDxe.inf
+INF MsSurfaceQcPkg/Override/MsCorePkg/MuVarPolicyFoundationDxe/MuVarPolicyFoundationDxe.inf
 INF MsGraphicsPkg/GopOverrideDxe/GopOverrideDxe.inf
 INF QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf
 INF QcomPkg/Drivers/CrashDumpDxe/CrashDumpDxe.inf
@@ -136,14 +136,14 @@ INF MdeModulePkg/Universal/MemoryTest/NullMemoryTestDxe/NullMemoryTestDxe.inf
 INF MsSurfaceCorePkg/MsManufacturingModeReclaimDxe/MsManufacturingModeReclaimDxe.inf
 INF MsWheaPkg/HwErrBert/HwErrBert.inf
 INF MsSamSupportPkg/SamCapabilitiesDxe/SamCapabilitiesDxe.inf
-INF MsSamSupportPkg/SamMfgModeDxe/SamMfgModeDxe.inf
 INF MsSamSupportPkg/PowerSupply/PowerSupply.inf
 INF MsSamSupportPkg/TempSensors/TempSensors.inf
 INF MsSamSupportPkg/Batteries/Batteries.inf
 INF MsSamSupportPkg/SamRealTimeClockDxe/SamRealTimeClockDxe.inf
-INF MsSurfaceCorePkg/HidKeyboardDxe/HidKeyboardDxe.inf
+INF MsSamSupportPkg/SamUefiDoneDxe/SamUefiDoneDxe.inf
+INF HidPkg/HidKeyboardDxe/HidKeyboardDxe.inf
 INF MsSurfaceCorePkg/SurfaceTouchHidDxe/SurfaceTouchHidDxe.inf
-INF MsSurfaceCorePkg/HidMouseAbsolutePointerDxe/HidMouseAbsolutePointerDxe.inf
+INF HidPkg/HidMouseAbsolutePointerDxe/HidMouseAbsolutePointerDxe.inf
 INF CasparPkg/GpioButtonsDxe/GpioButtons.inf
 INF MsSurfaceCorePkg/MsSmbiosDxe/MsSmbiosDxe.inf
 INF MsSurfaceCorePkg/MsCalibrationServicingDxe/MsCalibrationServicingDxe.inf
@@ -246,7 +246,7 @@ INF NetworkPkg/Mtftp6Dxe/Mtftp6Dxe.inf
 INF NetworkPkg/DnsDxe/DnsDxe.inf
 INF NetworkPkg/HttpDxe/HttpDxe.inf
 INF NetworkPkg/HttpUtilitiesDxe/HttpUtilitiesDxe.inf
-INF SharedTlsDxeRelease/SharedTlsDxeRelease.inf
+INF NetworkPkg/TlsDxe/TlsDxe.inf
 INF Ms_Network/Ms_Network.inf
 INF MsSurfaceCorePkg/MsSSDEntryLoggerDxe/MsSSDEntryLoggerDxe.inf
 INF MsSurfaceCorePkg/VariableDefaults/VariableDefaultsDxe.inf
