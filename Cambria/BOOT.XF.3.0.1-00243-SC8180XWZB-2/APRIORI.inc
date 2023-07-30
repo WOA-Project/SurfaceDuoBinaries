@@ -53,7 +53,7 @@ APRIORI DXE {
     INF Sc8180xFamilyPkg/MsEnvDxe/MsEnvDxe.inf
     INF QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
     INF MsSurfaceCorePkg/MuBuiltInVarPolicyInstallerDxe/MuBuiltInVarPolicyInstallerDxe.inf
-    INF MsCorePkg/MuVarPolicyFoundationDxe/MuVarPolicyFoundationDxe.inf
+    INF MsSurfaceQcPkg/Override/MsCorePkg/MuVarPolicyFoundationDxe/MuVarPolicyFoundationDxe.inf
     INF MsGraphicsPkg/GopOverrideDxe/GopOverrideDxe.inf
     INF QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf
     INF QcomPkg/Drivers/CrashDumpDxe/CrashDumpDxe.inf

@@ -53,7 +53,7 @@ QcomPkg/Drivers/VariableDxe/VariableDxe.inf
 Sc8180xFamilyPkg/MsEnvDxe/MsEnvDxe.inf
 QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
 MsSurfaceCorePkg/MuBuiltInVarPolicyInstallerDxe/MuBuiltInVarPolicyInstallerDxe.inf
-MsCorePkg/MuVarPolicyFoundationDxe/MuVarPolicyFoundationDxe.inf
+MsSurfaceQcPkg/Override/MsCorePkg/MuVarPolicyFoundationDxe/MuVarPolicyFoundationDxe.inf
 MsGraphicsPkg/GopOverrideDxe/GopOverrideDxe.inf
 QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf
 QcomPkg/Drivers/CrashDumpDxe/CrashDumpDxe.inf
@@ -129,14 +129,14 @@ MdeModulePkg/Universal/MemoryTest/NullMemoryTestDxe/NullMemoryTestDxe.inf
 MsSurfaceCorePkg/MsManufacturingModeReclaimDxe/MsManufacturingModeReclaimDxe.inf
 MsWheaPkg/HwErrBert/HwErrBert.inf
 MsSamSupportPkg/SamCapabilitiesDxe/SamCapabilitiesDxe.inf
-MsSamSupportPkg/SamMfgModeDxe/SamMfgModeDxe.inf
 MsSamSupportPkg/PowerSupply/PowerSupply.inf
 MsSamSupportPkg/TempSensors/TempSensors.inf
 MsSamSupportPkg/Batteries/Batteries.inf
 MsSamSupportPkg/SamRealTimeClockDxe/SamRealTimeClockDxe.inf
-MsSurfaceCorePkg/HidKeyboardDxe/HidKeyboardDxe.inf
+MsSamSupportPkg/SamUefiDoneDxe/SamUefiDoneDxe.inf
+HidPkg/HidKeyboardDxe/HidKeyboardDxe.inf
 MsSurfaceCorePkg/SurfaceTouchHidDxe/SurfaceTouchHidDxe.inf
-MsSurfaceCorePkg/HidMouseAbsolutePointerDxe/HidMouseAbsolutePointerDxe.inf
+HidPkg/HidMouseAbsolutePointerDxe/HidMouseAbsolutePointerDxe.inf
 CambriaPkg/GpioButtonsDxe/GpioButtons.inf
 MsSurfaceCorePkg/MsSmbiosDxe/MsSmbiosDxe.inf
 MsSurfaceCorePkg/MsCalibrationServicingDxe/MsCalibrationServicingDxe.inf
@@ -184,7 +184,7 @@ NetworkPkg/Mtftp6Dxe/Mtftp6Dxe.inf
 NetworkPkg/DnsDxe/DnsDxe.inf
 NetworkPkg/HttpDxe/HttpDxe.inf
 NetworkPkg/HttpUtilitiesDxe/HttpUtilitiesDxe.inf
-SharedTlsDxeRelease/SharedTlsDxeRelease.inf
+NetworkPkg/TlsDxe/TlsDxe.inf
 Ms_Network/Ms_Network.inf
 MsSurfaceCorePkg/MsSSDEntryLoggerDxe/MsSSDEntryLoggerDxe.inf
 MsSurfaceCorePkg/VariableDefaults/VariableDefaultsDxe.inf
